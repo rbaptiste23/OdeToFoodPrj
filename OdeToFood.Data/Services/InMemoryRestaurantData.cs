@@ -13,12 +13,12 @@ namespace OdeToFood.Data.Services
         public InMemoryRestaurantData()
             {
             restaurants = new List<Restaurant>()
-                {
+             {
                 
-                    new Restaurant { Id = 1, Name="Scott's Pizza", Cuisine  = CusineType.Italian },
-                    new Restaurant { Id = 2, Name="Tersiguels", Cuisine  = CusineType.French},
-                    new Restaurant { Id = 3, Name="Mango Grove", Cuisine  = CusineType.Indian }
-                };
+                new Restaurant { Id = 1, Name="Scott's Pizza", Cuisine  = CusineType.Italian },
+                new Restaurant { Id = 2, Name="Tersiguels", Cuisine  = CusineType.French},
+                new Restaurant { Id = 3, Name="Mango Grove", Cuisine  = CusineType.Indian }
+             };
                 
                     
             }
