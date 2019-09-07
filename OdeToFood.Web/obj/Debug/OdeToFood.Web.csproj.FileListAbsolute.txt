@@ -76,3 +76,7 @@ C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.dll
 C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.pdb
 C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.dll
 C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.pdb
+C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\Autofac.dll
+C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\Autofac.xml
+C:\Users\C5RB00\source\repos\OdeToFood\OdeToFood.Web\bin\Autofac.Integration.Mvc.xml
