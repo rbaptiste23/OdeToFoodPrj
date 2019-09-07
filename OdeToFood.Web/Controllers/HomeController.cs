@@ -5,6 +5,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
+// 1. The program compiles to a .dll file
+// 2. The Web Sever must be running (IIS  Or IIS Express) and map incoming http request and send them 
+
+// If you star w/ out the debugger you do not have to restart the web server.
+
 namespace OdeToFood.Web.Controllers
 {
     // HomeController = 
