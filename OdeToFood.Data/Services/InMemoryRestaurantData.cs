@@ -1,6 +1,7 @@
 ﻿using OdeToFood.Data.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace OdeToFood.Data.Services
 {
@@ -13,9 +14,10 @@ namespace OdeToFood.Data.Services
             {
             restaurants = new List<Restaurant>()
                 {
+                
                     new Restaurant { Id = 1, Name="Scott's Pizza", Cuisine  = CusineType.Italian },
-                    new Restaurant { Id = 1, Name="Scott's Pizza", Cuisine  = CusineType.Italian},
-                    new Restaurant { Id = 1, Name="Scott's Pizza", Cuisine  = CusineType.Italian }
+                    new Restaurant { Id = 2, Name="Tersiguels", Cuisine  = CusineType.French},
+                    new Restaurant { Id = 3, Name="Mango Grove", Cuisine  = CusineType.Indian }
                 };
                 
                     
@@ -23,7 +25,7 @@ namespace OdeToFood.Data.Services
 
         public IEnumerable<Restaurant> GetAll()
         {
-            throw new NotImplementedException();
+            return restaurants.OrderBy(r => r.Name);
         }
 
 
