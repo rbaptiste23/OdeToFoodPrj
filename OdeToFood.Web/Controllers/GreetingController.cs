@@ -11,9 +11,13 @@ namespace OdeToFood.Web.Controllers
     public class GreetingController : Controller
     {
         // GET: Greeting
-        public ActionResult Index()
+        // MVC Request will look around to see if it can find anything w/ name
+        // It will look in the query string
+        public ActionResult Index(string name)
         {
             var model = new GreetingViewModel();
+
+            model.Name = name ?? "no name";            
             model.Message = ConfigurationManager.AppSettings["message"];
 
             return View(model);
