@@ -13,6 +13,10 @@ namespace OdeToFood.Web.Controllers
         // GET: Greeting
         // MVC Request will look around to see if it can find anything w/ name
         // It will look in the query string
+
+        // Web API is used to: 
+        // Consume JSON or XML
+        // Produce JSON or XML
         public ActionResult Index(string name)
         {
             var model = new GreetingViewModel();

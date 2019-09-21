@@ -1,0 +1,33 @@
+﻿@model IEnumerable<OdeToFood.Data.Models.Restaurant>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Styles/StyleSheet1.css" />
+</head>
+
+ 
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    
+
+    <div> 
+      There are @Model.Count() restaurants in the db.
+    </div>
+    <br />
+
+    <ul style="background-color:red; color:white">
+        @foreach (var restaurant in Model)
+        {
+            <li>@restaurant.Name</li>
+        }
+
+    </ul>
+
+
+    
+</div>
+
